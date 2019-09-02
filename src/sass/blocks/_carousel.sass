@@ -1,19 +1,41 @@
 .carousel
-    padding: 82px 0 81px 0px
-    &__inner
-        width: 750px
-        margin: 0 auto
-        position: relative
-.slick-prev, .slick-next
-    border: none
-    background-color: #ffffff
-    width: 31px
-    height: 50px
-    position: absolute
-    z-index: 222
-    top: 50%
-    transform: translateY(-50%);
-.slick-prev
-    left: -66px
-.slick-next
-    right: -66px
+	padding: 82px 0 81px 0px
+	&__inner
+		width: 750px
+		margin: 0 auto
+		position: relative
+.prev, .next
+	border: none
+	background-color: #ffffff
+	width: 31px
+	height: 50px
+	position: absolute
+	z-index: 222
+	top: 50%
+	transform: translateY(-50%)
+	
+.prev
+	left: -66px
+.next
+	right: -66px
+.tns-item
+	img
+		display: block
+		margin: 0 auto
+.tns-nav
+	display: flex
+	align-items: center
+	justify-content: center
+	box-sizing: border-box
+	.tns-nav-active
+		background-color: red
+		border: 2px solid #323232 outset
+	button
+		display: block
+		margin-right: 5px
+		border: none
+		height: 12px
+		border-radius: 100%
+	
+
+
