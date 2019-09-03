@@ -1,0 +1,18 @@
+@mixin underline
+    &:hover
+        color: $main-color
+        text-decoration: none
+        &::after
+            visibility: visible
+            transform: translateX(0px)
+    &::after
+        content: ""
+        display: block	
+        width: 100%
+        position: absolute
+        visibility: hidden
+        border: 1px solid $main-color
+        background-color: $main-color
+        transition: 0.5s all
+        transform: translateX(-100px)
+        box-shadow: 0px 2px 5px black
