@@ -17,7 +17,7 @@
 	
 </head>
 	<body>
-		<section class="promo">
+		<section class="promo" id="up">
 			<div class="container">
 				<header class="header">
 					<a href="#" class="header__logo">
@@ -75,7 +75,7 @@
 				</h2>
 				<div class="advantages__wrapper">
 					<div class="advantages__items">
-						<img src="icon/cup.png" alt="cup">
+						<img src="icon/cup.png" alt="cup" class="advantages__icon advantages__icon_cup">
 						<div class="advantages__descr">
 							Делимся опытом
 						</div>
@@ -85,7 +85,7 @@
 						</div>
 					</div>
 					<div class="advantages__items">
-						<img src="icon/heart.png" alt="heart">
+						<img src="icon/heart.png" alt="heart" class="advantages__icon advantages__icon_heart">
 						<div class="advantages__descr">
 							Заботимся о здоровье
 						</div>
@@ -95,7 +95,7 @@
 						</div>
 					</div>
 					<div class="advantages__items">
-						<img src="icon/shoe.png" alt="shoe">
+						<img src="icon/shoe.png" alt="shoe" class="advantages__icon advantages__icon_shoe">
 						<div class="advantages__descr">
 							Учим бегать
 						</div>
@@ -123,7 +123,7 @@
 				</div>
 				<form class="feed-form" action="#" id="consultation-form">
 					<input name="name" type="text "maxlength="25" placeholder="Ваше имя">
-					<input name="phone" type="number"  placeholder="Ваше телефон">
+					<input name="phone"  placeholder="Ваше телефон">
 					<input name="email" type="email" maxlength="25" placeholder="Ваше E-mail">
 				
 					<button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
@@ -672,7 +672,7 @@
 				</div>
 				<form class="feed-form feed-form_mt25" action="#">
 						<input name="name" type="text" placeholder="Ваше имя">
-						<input name="phone" type="number" placeholder="Ваше телефон">
+						<input name="phone"  placeholder="Ваше телефон">
 						<input name="email" type="email" placeholder="Ваше E-mail">
 					
 						<button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
@@ -690,7 +690,7 @@
 				</div>
 				<form class="feed-form feed-form_mt25" action="#">
 					<input name="name" type="text" placeholder="Ваше имя">
-					<input name="phone" type="number" placeholder="Ваше телефон">
+					<input name="phone"  placeholder="Ваше телефон">
 					<input name="email" type="email" placeholder="Ваше E-mail">
 				
 					<button class="button button_submit">
@@ -708,14 +708,18 @@
 				</div>
 			</div>
 		</div>
+		<a class="pageup" href="#up"><i class="fas fa-chevron-circle-up"></i></a>
 		<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="js/slick.min.js"></script> -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/jquery.validate.min.js"></script>
-		
+		<script src="js/jquery.maskedinput.min.js"></script>
 		<script src="js/script.js"></script>
 		<script src="js/validscript.js"></script>
+		<script src="js/scrollup.js"></script>
+		<script src="js/maskNumber.js"></script>
+		<script src="js/phpforform.js"></script>
 	</body>
 </html>
